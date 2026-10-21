@@ -113,7 +113,7 @@ main address a:hover{
     color: #6d00b5;
 }
 
-figure{
+figure.home{
     margin: 0;
     float: right;
     width: 35%;
@@ -122,6 +122,18 @@ figure{
 
 figure img{
     width: 100%;
+    height: auto;
+}
+
+figure figcaption{
+    text-align: center;
+    font-size: .9rem;
+    color: #007bb5;
+}
+
+div.gallery figure{
+    margin: 0;
+    width: 35%;
     height: auto;
 }
 
