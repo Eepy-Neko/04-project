@@ -113,6 +113,18 @@ main address a:hover{
     color: #6d00b5;
 }
 
+figure{
+    margin: 0;
+    float: right;
+    width: 35%;
+    height: auto;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
+
 footer{
     background-color: #0009b5;
     padding: .5rem 0;
