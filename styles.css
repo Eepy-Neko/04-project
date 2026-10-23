@@ -131,15 +131,22 @@ figure figcaption{
     color: #007bb5;
 }
 
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 50px;
+}
+
 div.gallery figure{
     margin: 0;
-    width: 35%;
+    width: 30%;
     height: auto;
 }
 
 footer{
     background-color: #0009b5;
     padding: .5rem 0;
+    clear: both;
 }
 
 footer p{
